@@ -21,7 +21,6 @@ public class tarefa5 {
 		nota3 = nota3*5;
 		
 		media = (nota1+nota2+nota3)/10;
-		
 		System.out.printf("Media: "+ media);
 	}
 
