@@ -15,7 +15,7 @@ public class laçoDeRepeticaoJava4 {
 		System.out.println("Digite um número: ");
 		num = kb.nextInt();
 		
-		if(num>0)
+		if((num % 2) == 0)
 		{
 			raizQuadrada = Math.sqrt(num);
 			System.out.println("Este é um número par! Sua raiz quadrade é: "+ raizQuadrada);

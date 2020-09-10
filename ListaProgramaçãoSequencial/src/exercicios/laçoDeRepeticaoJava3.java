@@ -14,21 +14,22 @@ public class laçoDeRepeticaoJava3 {
 	System.out.println("Digite a sua idade: ");
 	idade = kb.nextInt();
 	
-	if(idade >=10 && idade <=14)
+	if(idade>=10 && idade<=14)
 	{
 		System.out.println("Você está inscrito na categoria infantil");
 	}
-	if(idade >=15 && idade <=17)
+	if(idade>=15 && idade<=17)
 	{
 		System.out.println("Você está inscrito na categoria juvenil");
 	}
-	if(idade >=18 && idade <=25)
+	if(idade>=18 && idade<=25)
 	{
 		System.out.println("Você está inscrito na categoria adulto");
 	}
-	else
+	else if(idade<=9 || idade >=26)
 	{
-		System.out.println("Infelizmente você não se encaixa em nenhuma categoria");
+		System.out.println("Infelizmente você não poderá participar de nenhuma categoria.");
 	}
+		
 	}
 }
