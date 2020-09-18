@@ -1,12 +1,13 @@
 package entidade;
 
-import aplicacao.Animal;
+
 
 public class Cavalo extends Animal {
 
 	private String correr;
 
-	public Cavalo(String correr) {
+	public Cavalo(String nome, int idade, String emiteSom, String correr) {
+		super(nome, idade, emiteSom,correr);
 		this.correr = correr;
 	}
 
@@ -14,12 +15,9 @@ public class Cavalo extends Animal {
 		return correr;
 	}
 
-	public void correr(){
+	public void correr() {
 		System.out.println("correndo");
-		}
+	}
 
-	public void som() {
-		System.out.println("relinchar");
-		
-}
+	
 }

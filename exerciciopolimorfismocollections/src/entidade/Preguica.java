@@ -1,12 +1,13 @@
 package entidade;
 
-import aplicacao.Animal;
+
 
 public class Preguica extends Animal {
 
 	private String subirArvore;
-
-	public Preguica(String subirArvore) {
+	
+	public Preguica(String nome, int idade, String emiteSom, String subirArvore) {
+		super(nome, idade, emiteSom, subirArvore);
 		this.subirArvore = subirArvore;
 	}
 
@@ -18,8 +19,5 @@ public class Preguica extends Animal {
 		this.subirArvore = subirArvore;
 	}
 
-	public void som() {
-		System.out.println("iiiiiiiiiiiiiiiiii");
-		
-	}
+
 }
