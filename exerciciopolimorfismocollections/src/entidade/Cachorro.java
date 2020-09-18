@@ -1,17 +1,25 @@
 package entidade;
 
-public class Cachorro extends Animal {
+import aplicacao.Animalprincipal;
+
+public class Cachorro extends Animalprincipal {
 
 	private String correr;
 
-	public Cachorro(String nome, int idade, String emiteSom, String correr) {
-		super(nome, idade, emiteSom, correr);
+	public Cachorro(String correr) {
+		super();
 		this.correr = correr;
 	}
 
-	public void correr() {
-		System.out.println("correndo");
+	public String getCorrer() {
+		return correr;
 	}
 
-	
+	public void correr(){
+		System.out.println("corre atrás do carteiro");
+		}
+	public void som() {
+		System.out.println("Au au au");
+
 }
+} 
