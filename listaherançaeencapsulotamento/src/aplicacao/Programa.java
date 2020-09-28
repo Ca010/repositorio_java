@@ -18,7 +18,7 @@ public class Programa {
 		Vendedor vendas = new Vendedor(10, 20);
 		Administrador ajudaDeCusto = new Administrador(500,20);
 	
-		System.out.println("REGISTRO FUNCIONARIO");
+		
 		System.out.println("CLIENTE"+clienteValor.getNome());
 		System.out.print("CLIENTE"+clienteValor.getValorCredito());
 		System.out.println("FORNECEDOR"+obterSaldo.getObterSaldo());

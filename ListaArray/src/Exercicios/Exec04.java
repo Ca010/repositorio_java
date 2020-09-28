@@ -39,7 +39,7 @@ public class Exec04 {
 			}
 		}
 
-		System.out.println("Menus de opções (selecionar o número da opçao desejada)");
+		System.out.println("\nMenus de opções (selecionar o número da opçao desejada)");
 		System.out.println("(1)Somar Matrizes");
 		System.out.println("(2)Subtrair Matrizes");
 		System.out.println("(3)Adicionar uma constante as duas matrizes");

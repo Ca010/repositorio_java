@@ -9,7 +9,7 @@ public class Animalprincipal {
 	public static void main(String[] args) {
 
 		String nome;
-		 int idade;
+		int idade;
 		String emiteSom = null;
 
 		Cachorro dog = new Cachorro("corre");
@@ -29,8 +29,7 @@ public class Animalprincipal {
 		horse.correr();
 		System.out.println("A preguiça: ");
 		sloth.subirArvore();
-		
+
 	}
 
-	
 }
